@@ -1,0 +1,19 @@
+for vim.bat
+
+@echo off
+REM Change following line to your directory
+set wd=C:\xampp\htdocs\photo
+cd C:\Users\jordan
+gvim %wd%\TODO %wd%\css\index.css %wd%\index.php %wd%\js\index.js
+
+
+for vimrc
+"Buffer creation for photo
+"php
+:b4
+"js
+:vs
+:b3
+"css
+:sp
+:b2

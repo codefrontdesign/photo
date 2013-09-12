@@ -1,0 +1,16 @@
+For the photo studio site
+
+Complete structure in a mutable orientation. I'm going to use 2 or 3 layouts to display what I'm going for.
+- one layout will be small, the other will be full screen.
+
+Get a list of items to add to the site: gallery, logins, price calculator, etc...
+
+after finishing
+
+Figure out usage
+
+talk about timing, pricing, inclusive items.
+- she should be able to upload her own pictures and set them to each customer.
+- customers should be able to set up appointments through the website - google calendar - and she be notified of the day and approve or move the appointment via her phone/website. I could make an app too if I wanted.
+- customer photos will all be dumped into one folder, but using JSON - the photos will be assigned to each specific user. Their login will determine the photos that get selected for viewing.
+- She on the other hand will be able to 'view all' or select 'by customer' or even by 'date'. She can always see every picture until it's manually removed.

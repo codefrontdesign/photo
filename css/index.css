@@ -1,0 +1,43 @@
+
+/* admitidly rough */
+
+body{background-color:#555;}
+
+#doc{position:absolute;left:10px;top:10px;width:98.5%;height:100%;color:#888;}
+
+	#header{position:absolute;left:0px;top:0px;height:300px;width:100%;background-color:#222;}
+		#banner{}
+			#slides{}
+		#title{}
+		#member{}
+		#links{}
+
+	#body{position:absolute;left:0px;top:300px;height:500px;width:100%;background-color:#111;}
+		/* non-member */
+		#galleries{}
+		/* SPELL CHECK THIS*/
+			#pics{}
+		#feed{}
+		#info{}
+			#about{}
+			#contact{}
+
+		/* logged in users */
+		#request_photos{}
+		#my_gallary{}
+		.galleries{}
+
+		/* admin */
+		#schedule{}
+		#post{}
+		#post_feed{}
+		#post_image{}
+		#edit{}
+		#edit_gallary{}
+		#edit_about{}
+		#edit_contact{}
+		#footer{position:absolute;left:0px;bottom:0px;height:20px;width:100%;background-color:#222;}
+
+#gallary{}
+#pages{}
+#pictures{}
