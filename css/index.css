@@ -1,43 +1,43 @@
 
-/* admitidly rough */
-
 body{background-color:#555;}
 
+/* if divisions are going to be dynamically resized, then they need to be capped at a reasonable size, both large and small.*/
 #doc{position:absolute;left:10px;top:10px;width:98.5%;height:100%;color:#888;}
 
 	#header{position:absolute;left:0px;top:0px;height:300px;width:100%;background-color:#222;}
 		#banner{}
-			#slides{}
+			#banner_slides{}
 		#title{}
 		#member{}
+			#member_form{}
 		#links{}
 
 	#body{position:absolute;left:0px;top:300px;height:500px;width:100%;background-color:#111;}
-		/* non-member */
 		#galleries{}
-		/* SPELL CHECK THIS*/
-			#pics{}
+			/* logged in */
+			.my_requested_photos{}
+			.my_galleries{}
+			/* visitor */
+			.sample_gallery{}
+
 		#feed{}
+			#feed_container{}
+
 		#info{}
 			#about{}
 			#contact{}
 
-		/* logged in users */
-		#request_photos{}
-		#my_gallary{}
-		.galleries{}
+		#public_schedule{}
 
 		/* admin */
-		#schedule{}
-		#post{}
-		#post_feed{}
-		#post_image{}
-		#edit{}
-		#edit_gallary{}
-		#edit_about{}
-		#edit_contact{}
+		#admin_post{}
+			#admin_post_schedule{}
+			#admin_post_feed{}
+			#admin_post_image{}
+		#admin_edit{}
+			#admin_edit_schedule{}
+			#admin_edit_feed{}
+			#admin_edit_gallery{}
+			#admin_edit_about{}
+			#admin_edit_contact{}
 		#footer{position:absolute;left:0px;bottom:0px;height:20px;width:100%;background-color:#222;}
-
-#gallary{}
-#pages{}
-#pictures{}
