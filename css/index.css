@@ -4,30 +4,30 @@ body{background-color:#555;}
 /* if divisions are going to be dynamically resized, then they need to be capped at a reasonable size, both large and small.*/
 #doc{position:absolute;left:10px;top:10px;width:98.5%;height:100%;color:#888;}
 
-	#header{position:absolute;left:0px;top:0px;height:300px;width:100%;background-color:#222;}
-		#banner{}
-			#banner_slides{}
-		#title{}
-		#member{}
-			#member_form{}
-		#links{}
+	#header{position:absolute;left:0px;top:0px;height:300px;width:100%;}
+		#banner{position:absolute;top:0px;left:0px;height:100%;width:100%;background-color:#222;}
+			#banner_slides{position:absolute;top:10px;left:10px;background-color:#333;}
+		#title{position:absolute;bottom:0px;left:0px;height:100px;width:300px;background-color:#444}
+		#member{position:absolute;top:10px;right:10px;height:100px;width:200px;background-color:#555;}
+			#member_form{position:absolute;top:0px;left:0px;height:100%;width:100%;background-color:#666;}
+		#links{position:absolute;bottom:10px;right:10px;height:50px;width:200px;background-color:#777;}
 
 	#body{position:absolute;left:0px;top:300px;height:500px;width:100%;background-color:#111;}
-		#galleries{}
+		#galleries{position:absolute;top:0px;left:0px;height:400px;width:800px;background-color:#222;}
 			/* logged in */
-			.my_requested_photos{}
-			.my_galleries{}
+			.my_requested_photos{position:absolute;top:0px;left:0px;height:100%;width:100%;/*visibility:hidden;*/}
+			.my_galleries{position:absolute;top:0px;left:0px;height:100%;width:100%;/*visibility:hidden;*/}
 			/* visitor */
-			.sample_gallery{}
+			.sample_gallery{position:absolute;top:0px;left:0px;height:100%;width:100%;/*visibility:hidden;*/}
 
-		#feed{}
-			#feed_container{}
+		#feed{position:absolute;bottom:0px;right:0px;height:400px;width:500px;background-color:#333;}
+			#feed_container{position:absolute;top:0px;left:0px;height:100%;width:100%;background-color:#444;}
 
-		#info{}
-			#about{}
-			#contact{}
+		#info{position:absolute;top:0px;right:0px;height:200px;width:300px;background-color:#555;}
+			#about{position:absolute;top:0px;left:0px;height:100px;width:100%;background-color:#666;}
+			#contact{position:absolute;top:100px;left:0px;height:100px;width:100%;background-color:#666;}
 
-		#public_schedule{}
+		#public_schedule{position:absolute;top:100px;right:100px;height:100px;width:100px;background-color:#777;}
 
 		/* admin */
 		#admin_post{}

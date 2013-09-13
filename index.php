@@ -11,12 +11,16 @@
 
 	<!-- main view -->
 	<div id='doc'>
+	doc
 		<div id='header'>
+		header
 			<div id='banner'>
+			banner
 				<div id='banner_slides'>Banner Slides</div>		
 			</div>
 			<div id='title'>PHOTO STUDIO WEBSITE</div>
 			<div id='member'>
+			member
 				<div id='member_form'>
 					<!-- members login form and functions -->
 					Member Login<br />
@@ -28,24 +32,25 @@
 		<div id='body'>
 			<div id='galleries'>
 				<div class='my_galleries'><!-- private -->
-					<div class='my_requested_photos'>my galleries</div>
+					my galleries
+					<div class='my_requested_photos'>my requested photos</div>
 				</div>
 				<div class='sample_gallery'>sample gallery</div><!-- public -->
 			</div>
-			<div id='feed'>
-				<div id='feed_container'>
+			<div id='feed'>feed
+				<div id='feed_container'>feed container
 					<!-- feed is populated by PHP, included here -->
 				</div>
 			</div>
-			<div id='info'>
-				<div id='about'>
+			<div id='info'>info
+				<div id='about'>about
 					<!-- PHP -->
 				</div>
-				<div id='contact'>
+				<div id='contact'>contact
 					<!-- PHP -->
 				</div>
 			</div>
-			<div id='public_schedule'></div><!-- schedule will show occupied dates and times, but no specific customer information. -->
+			<div id='public_schedule'>public schedule</div><!-- schedule will show occupied dates and times, but no specific customer information. -->
 		</div>
 		<div id='footer'>Citations/Links/Footer</div>
 	</div>
