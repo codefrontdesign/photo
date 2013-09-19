@@ -1,18 +1,19 @@
 
-body{background-color:#555;}
+body{background-color:#555;background-image:url('../res/canvas.png');}
 
 /* if divisions are going to be dynamically resized, then they need to be capped at a reasonable size, both large and small.*/
 #doc{position:absolute;left:10px;top:10px;width:98.5%;height:100%;color:#888;}
 
-	#header{position:absolute;left:0px;top:0px;height:300px;width:100%;}
+	#header{position:absolute;left:0px;top:0px;height:800px;width:100%;}
 		#banner{position:absolute;top:0px;left:0px;height:100%;width:100%;background-color:#222;}
-			#banner_slides{position:absolute;top:10px;left:10px;background-color:#333;}
-		#title{position:absolute;bottom:0px;left:0px;height:100px;width:300px;background-color:#444}
-		#member{position:absolute;top:10px;right:10px;height:100px;width:200px;background-color:#555;}
+			#title{position:absolute;top:0px;left:0px;height:100px;width:90%;background-color:#444}
+			#banner_slides{position:absolute;top:100px;left:0px;height:600px;width:800px;background-color:#333;}
+		#member{position:absolute;top:0px;right:0px;height:100px;width:10%;background-color:#555;}
 			#member_form{position:absolute;top:0px;left:0px;height:100%;width:100%;background-color:#666;}
-		#links{position:absolute;bottom:10px;right:10px;height:50px;width:200px;background-color:#777;}
+		#header_info{position:absolute;top:100px;right:0px;width:600px;}
+			#links{position:absolute;top:0px;right:0px;height:50px;width:100%;background-color:#777;}
 
-	#body{position:absolute;left:0px;top:300px;height:500px;width:100%;background-color:#111;}
+	#body{position:absolute;left:0px;top:800px;height:500px;width:100%;background-color:#111;}
 		#galleries{position:absolute;top:0px;left:0px;height:400px;width:800px;background-color:#222;}
 			/* logged in */
 			.my_requested_photos{position:absolute;top:0px;left:0px;height:100%;width:100%;/*visibility:hidden;*/}

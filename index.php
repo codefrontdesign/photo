@@ -11,23 +11,21 @@
 
 	<!-- main view -->
 	<div id='doc'>
-	doc
 		<div id='header'>
-		header
 			<div id='banner'>
-			banner
+				<div id='title'>PHOTO STUDIO WEBSITE</div>
 				<div id='banner_slides'>Banner Slides</div>		
 			</div>
-			<div id='title'>PHOTO STUDIO WEBSITE</div>
 			<div id='member'>
-			member
 				<div id='member_form'>
 					<!-- members login form and functions -->
 					Member Login<br />
 					Member functions
 				</div>
 			</div>
-			<div id='links'> link / link / link / link</div>
+			<div id='header_info'>
+				<div id='links'> link / link / link / link</div>
+			</div>
 		</div>
 		<div id='body'>
 			<div id='galleries'>
